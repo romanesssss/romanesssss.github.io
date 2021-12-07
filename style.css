@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CBFFFF;
+    color: #000000;
+    /*font-family:'Roboto', sans-serif; */
+    font-family: 'Kurale', serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 1.6em;
+    font-size: 20px;
+    font-weight: 400;
+    overflow-wrap: normal;
+
+}
+@media only screen and (max-width: 480px) {
+
+}
+.news-title {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -25px;
+    font-size: 22px;
+    color: #000;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    line-height: 30px;
+    }
+
+.news_time {
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Proxima Nova Regular", Helvetica, Arial, sans-serif;
+    color: #000;
+    opacity: 0.4;
+    letter-spacing: 0.1em;
+    line-height: 15px;
+}
+
+.news-category {
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Proxima Nova Regular", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    letter-spacing: 0.1em;
+    line-height: 15px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.fon {
+    position: relative;
+    z-index: 1;
+}
+.foto1 {
+    position: absolute;
+    z-index: 2;
+    top: 293px;
+    left: 130px;
+    width: 23vw;
+    padding: 1vw;
+}
+.foto2 {
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 950px;
+    width: 30vw;
+}
+.devushka2 {
+    object-fit: contain;
+    width: 100%;
+}
+.foto3 {
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 100px;
+    width: 10vw;
+}
+.devushka3 {
+    object-fit: contain;
+    width: 100%;
+}
+
+
+
+.header {
+    text-align: center;
+    position: relative;
+    background: url('mount1.jpg') center no-repeat;
+    background-size: cover;
+    height: 45vw;
+}
+
+.fon_img {
+    object-fit: fill;
+    height: 1000px;
+    width: 1665px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 10px;
+}
+
+
+.fon_img::after {
+    content: '';
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.menu_list {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 -1px;
+}
+.menu_list-item {
+    padding: 0 13px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_list-link {
+    font-size: 36px;
+    line-height: 42px;
+    
+}
+.menu_list-link:hover {
+    color: #0d0e0e;
+}
+button {
+    border: 0;
+    cursor: pointer;
+}
+.devushka1 {
+    object-fit: contain;
+    width: 100%;
+}
+.container {
+    max-width: 1230;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.section-page {
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.about_inner {
+    display: flex;
+}
+.about_info {
+    width: 375px;
+    margin-right: 50px;
+    flex: none;
+}
+.about_info-item {
+    margin-bottom: 30px;
+    margin-top: 21px;
+}
+.about_text p{
+    margin-bottom: 50px;
+}
+.what {
+    margin-bottom: -11px;
+}
+.ysl {
+    width: 40vw;
+    object-fit: contain;
+    margin-top: 69px;
+}
+.horo {
+    width: 60vw;
+    object-fit: contain;
+    margin-top: 69px;
+}
+.kk {
+    width: 60vw;
+    object-fit: contain;
+    margin-top: 69px;
+}
+
+.merlin {
+    object-fit: contain;
+    height: 1000px;
+    width: 1400px;
+}
+.fon_btn {
+    padding-left: 112px;
+    position: relative;
+}
+
+.fon_btn::before {
+    content: '';
+    background-image: url('/Users/aleksandr/Desktop/html/gof/mini.jp');
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 0;
+}
+
+.photo_text {
+    text-align: center;
+}
+
+
+
+ 
+ .menu_list a {
+    text-decoration: none;
+    display: block;
+    transition: .4s ease-in-out;
+ }
+ 
+ .menu_list>li>a {
+    padding: 20px;
+    color: #767676;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Exo 2', sans-serif;
+ }
+ /*
+ .menu_list li a:hover {
+    color: #ffffff;
+ }
+ */
+ .menu_list li a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.35);
+ }
+ .what1 {
+     margin-bottom: 20px;
+ }
+ .what2 {
+    margin-bottom: 20px;
+}
+.what3 {
+    margin-bottom: 20px;
+}
+ .mail {
+     background-color: #F2F2F2;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ .tg {
+     width: 3vw;
+     margin-top: 0px;
+     margin-left: 0px;
+ }
+ .from-control {
+    height: 47px;
+    width: 40%;
+    background: #fff;
+    color: #000;
+    padding-left: 22px;
+    font-size: 12px;
+    -webkit-transition: border 0.5s;
+    transition: border 0.5s;
+    border: 1px #fff solid;
+    line-height: 14px;
+ }
+ .menu_list li a {
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Kurale', serif;
+ }
+ 
+ @media(max-width: 599px) {
+    .menu_list>li>a {
+       padding: 15px 20px;
+    }
+    .menu_list li a {
+       padding: 10px 20px;
+       margin: 0 20px;
+    }
+ }
+ .submit {
+     margin-left: 630px;
+     margin-top: -47.4px
+ }
+ .submit1 {
+    margin-left: auto;
+ }
+ @media(min-width: 600px) {
+    .menu_list {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+    .menu_list>li {
+       position: relative;
+    }
+    
+    .menu_list>li:last-child:after {
+       background: none;
+       box-shadow: none;
+    }
+.submenu {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 210px;
+    margin-left: -105px;
+    background: #EEFAA5;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(.8);
+    transition: .4s ease-in-out;
+    text-align: center;
+}
+.menu_list>li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.submenu li a {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+ footer {
+     background-color: rgb(190, 247, 58);
+     padding: 10px;
+ }
+ .podval {
+     text-align: right;
+     font-size: 20px;
+ }
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0, 0, 0, 0.9)
+ }
+ .modal-cont {
+     background-color: #fefefe;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+ }
+ .close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+ }
+ }
